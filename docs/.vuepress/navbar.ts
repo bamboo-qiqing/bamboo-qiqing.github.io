@@ -4,12 +4,12 @@ export default navbar([
     "/",
     {
         text: "项目列表",
-        icon: "list",
+        icon: "xiangmuliebiao",
         prefix: "/projects/",
         children: [
             {
                 text: "Restful Cloud",
-                icon: "edit",
+                icon: "haitun",
                 link: "restfulCloud/home"
             }
         ]

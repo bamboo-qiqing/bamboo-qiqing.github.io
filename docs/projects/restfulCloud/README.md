@@ -2,7 +2,11 @@
 index: false
 icon: creative
 category:
-  - 使用指南
+  - idea 插件
+tag:
+  - idea 插件
+  - 工具
+  - java
 ---
 
 # Restful Cloud

@@ -10,7 +10,7 @@ export default hopeTheme({
         url: "https://mrhope.site",
     },
 
-    iconAssets: "//at.alicdn.com/t/font_2410206_a0xb9hku9iu.css",
+    iconAssets: "//at.alicdn.com/t/font_3449437_z8xcmc2vefg.css",
 
     logo: "/logo.svg",
 
@@ -24,7 +24,7 @@ export default hopeTheme({
     // sidebar
     sidebar: sidebar,
 
-    footer: "默认页脚",
+    footer: "人生似幻化，终当归空无。",
 
     displayFooter: true,
 
@@ -42,7 +42,6 @@ export default hopeTheme({
 
     encrypt: {
         config: {
-            "/guide/encrypt.html": ["1234"],
         },
     },
 
