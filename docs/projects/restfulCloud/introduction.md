@@ -1,5 +1,6 @@
 ---
 title: 介绍
+icon: describe
 article: false
 ---
 [Restful Cloud](https://plugins.jetbrains.com/plugin/18885-restful-cloud)是restful api工具插件，使用sqlite缓存所有已打开项目的url，可以使打开一个项目的同时搜索到其他项目的url。
