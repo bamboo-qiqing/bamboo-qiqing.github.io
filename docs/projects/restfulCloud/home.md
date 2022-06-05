@@ -14,16 +14,29 @@ actions:
   link: /
 
 features:
-- title: Restful Api 查询
+- title: Restful Api 搜索
   icon: icon-test12
-  details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
+  details: 当前项目和其它项目Url查询，不同请求类型GET、POST筛选
   link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
+- title: 所有项目Restful Api 展示
+  icon: xianshi
+  details: 当前项目、历史点击、其它项目Restful Api 展示
+  link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
+- title: 描述支持
+  icon: icon-test8
+  details: 类描述、方法描述、不同框架描述，描述重命名支持
+  link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
+- title: 配置
+  icon: icon-test16
+  details: 初始化数据地址、是否开启接口描述、接口描述框架排序设置
+  link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
+- title: 数据缓存
+  icon: database
+  details: Class、Method、Restful Api离线储存，数据库sqlite储存
 
-- title: 更多新特性
-  icon: more
-  details: 包括图标支持、全屏按钮、返回顶部按钮等
-  link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
-  copyright: false
-  footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+- title: 其它待开发
+  icon: yangshi_icon_tongyong_more
+  details: 自定义框架支持，utools支持，本地接口统计支持
+
 ---
 
