@@ -3,11 +3,11 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-    hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+    hostname: "https://bamboo-qiqing.github.io/",
 
     author: {
         name: "Bamboo",
-        url: "https://mrhope.site",
+        url: "https://bamboo-qiqing.github.io/",
     },
 
     iconAssets: "//at.alicdn.com/t/font_3449437_wsh6mugd7pb.css",
