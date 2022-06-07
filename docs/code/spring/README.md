@@ -1,7 +1,7 @@
 ---
 index: false
 icon: creative
-sticky: true
+title: Spring Framework
 category:
  - 编程语言
 tag:
