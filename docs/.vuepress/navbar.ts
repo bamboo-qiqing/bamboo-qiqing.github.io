@@ -13,5 +13,21 @@ export default navbar([
                 link: "restfulCloud/home"
             }
         ]
+    }, {
+        text: "编程语言",
+        icon: "code",
+        prefix: "/code/",
+        children: [
+            {
+                text: "Java",
+                icon: "java",
+                link: "java/"
+            },
+            {
+                text: "Spring",
+                icon: "spring-edf462fec682b9d48cf628eaf9e19521",
+                link: "spring/"
+            }
+        ]
     }
 ]);

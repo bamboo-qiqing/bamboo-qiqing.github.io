@@ -8,13 +8,31 @@ export default sidebar({
             text: "功能",
             icon: "gongneng",
             prefix: "",
-            collapsable:true,
+            collapsable: true,
             children: [
                 "searchAndFilter",
                 "presentationAndStatistics",
                 "describe",
                 "setting",
                 "database",
+            ]
+        }
+    ],
+    "/code/spring": [
+        {
+            text: "Spring Framework",
+            collapsable: true,
+            prefix: "/code/spring/framework/",
+            children: [
+                {
+                    text: "Spring Caching",
+                    prefix: "caching/",
+                    collapsable: true,
+                    children:[
+                        "ehcache",
+                    ],
+                    link: "caching/",
+                }
             ]
         }
     ]

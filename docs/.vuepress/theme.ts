@@ -10,7 +10,7 @@ export default hopeTheme({
         url: "https://bamboo-qiqing.github.io/",
     },
 
-    iconAssets: "//at.alicdn.com/t/font_3449437_wsh6mugd7pb.css",
+    iconAssets: "//at.alicdn.com/t/font_3449437_f0lx5hq3psd.css",
 
     logo: "/logo.svg",
 
