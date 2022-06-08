@@ -29,7 +29,8 @@ export default sidebar({
                     prefix: "caching/",
                     collapsable: true,
                     children:[
-                        "ehcache",
+                        "cacheDeclaration",
+                        "configureCacheStorage"
                     ],
                     link: "caching/",
                 }
