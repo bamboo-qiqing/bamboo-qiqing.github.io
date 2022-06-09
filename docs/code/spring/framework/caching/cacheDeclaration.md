@@ -38,9 +38,35 @@ Cacheable是一个注释，用于标记一个方法是否可以被缓存,将结�
 - condition ：可以用来指定符合条件的情况下才缓存
 - unless ：否定缓存。当 unless 指定的条件为 true ，方法的返回值就不会被缓存。当然你也可以获取到结果进行判断。（通过 #result 获取方法结果）
 - sync ：是否使用异步模式。
-::: details Cacheable.java
-
 ### cacheNames/value
+
+用来指定缓存的缓存组件的名称，可以指定一个或多个缓存组件，支持数组方式。
+
+::: tip
+方法调用前，Spring会依次检查缓存组件中是否存在相应的缓存，如果存在，则不再调用方法，而是直接从缓存中获取结果返回。
+
+不包含该值的所有其他缓存也会更新，即使缓存的方法实际上并未被调用。
+:::
+```java
+public interface SpringCacheService {
+    @Cacheable(value = {"books","books1"}, key = "#id")
+     Integer getCake(Integer id);
+}
+
+```
+### key
+缓存数据时使用的 key。默认使用的是方法参数的值。可以使用 spEL 表达式去编写。
+### @CacheEvict
+
+### @CachePut
+
+### @Caching
+
+### @CacheConfig
+
+### @EnableCaching
+
+::: details Cacheable.java
 
 ```java
 /*
