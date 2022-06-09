@@ -38,5 +38,9 @@ features:
   icon: yangshi_icon_tongyong_more
   details: 自定义框架支持，utools支持，本地接口统计支持
 
+- title: 友情链接
+  icon: yangshi_icon_tongyong_more
+  details: Restful Fast Request 是idea版Postman。它是一个强大的restful api工具包插件，可以根据已有的方法帮助您快速生成url和params。
+  link: https://dromara.org/fast-request/en/
 ---
 
