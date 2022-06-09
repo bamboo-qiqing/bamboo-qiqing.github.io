@@ -1,15 +1,15 @@
 ---
-index: false
-icon: creative
-title: 缓存声明
-article: false
+index: false 
+icon: creative 
+title: 缓存声明 
+article: false 
 category:
- - 编程语言
- - Spring
+  - 编程语言
+  - Spring 
 tag:
- - java
- - 缓存
- - Spring Framework
+  - java
+  - 缓存
+  - Spring Framework
 ---
 对于缓存声明，Spring的缓存抽象提供了一组Java注解：
 
@@ -25,11 +25,23 @@ tag:
 
 - @EnableCaching：启用缓存。
 
-
 ## @Cacheable
-Cacheable是一个注释，用于标记一个方法是否可以被缓存,
 
-::: details  Cacheable.java
+Cacheable是一个注释，用于标记一个方法是否可以被缓存,将结果缓存到指定的缓存中，以便以后可以直接从缓存中获取。
+在调用方法前，Spring会检查缓存中是否存在相应的结果，如果存在，则直接返回缓存中的结果，否则调用方法并将结果缓存到指定的缓存中。
+
+**Cacheable包含以下属性：**
+- cacheNames/value ：用来指定缓存组件的名字
+- key ：缓存数据时使用的 key，可以用它来指定。默认是使用方法参数的值。（这个 key 你可以使用 spEL 表达式来编写）
+- keyGenerator ：key 的生成器。 key 和 keyGenerator 二选一使用
+- cacheManager ：可以用来指定缓存管理器。从哪个缓存管理器里面获取缓存。
+- condition ：可以用来指定符合条件的情况下才缓存
+- unless ：否定缓存。当 unless 指定的条件为 true ，方法的返回值就不会被缓存。当然你也可以获取到结果进行判断。（通过 #result 获取方法结果）
+- sync ：是否使用异步模式。
+::: details Cacheable.java
+
+### cacheNames/value
+
 ```java
 /*
  * Copyright 2002-2016 the original author or authors.
@@ -214,4 +226,5 @@ public @interface Cacheable {
 
 }
 ```
+
 :::
