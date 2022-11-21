@@ -1,18 +1,35 @@
 {
   "name": "bamboo",
-  "version": "2.0.0",
-  "description": "A project of vuepress-theme-hope",
-  "license": "MIT",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs"
+    "docs:lint": "prettier --check --write docs/",
+    "docs:clean-dev": "vuepress dev docs --no-cache",
+    "docs:update": "ncu -u --target greatest && pnpm i && pnpm up"
+  },
+  "dependencies": {
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/plugin-back-to-top": "2.0.0-beta.53",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.53",
+    "@vuepress/plugin-nprogress": "2.0.0-beta.53",
+    "@vuepress/plugin-search": "2.0.0-beta.53",
+    "npm-check-updates": "^16.3.16",
+    "vue": "3.2.41",
+    "vuepress": "2.0.0-beta.53",
+    "vuepress-theme-hope": "2.0.0-beta.119"
   },
   "devDependencies": {
-    "@vuepress/client": "^2.0.0-beta.46",
-    "@vuepress/plugin-search": "^2.0.0-beta.46",
-    "vue": "^3.2.36",
-    "vuepress": "^2.0.0-beta.46",
-    "vuepress-theme-hope": "^2.0.0-beta.76"
+    "prettier": "2.7.1"
+  },
+  "packageManager": "pnpm@7.14.1",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
   }
 }
