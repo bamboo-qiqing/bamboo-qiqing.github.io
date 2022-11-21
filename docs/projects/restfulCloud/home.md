@@ -17,7 +17,7 @@ features:
 - title: 零侵入
   icon: icon-test12
   details: 兼容smart-doc设计理念，根据javadoc构建文档
-- title: 简单，快捷
+- title: 便捷、高效
   icon: time
   details: Idea插件，无需配置，一键解析
 
@@ -26,8 +26,5 @@ features:
   details: sqlite缓存，易扩展，支持动态添加自定义注解。
 
 
-- title: 友情链接
-  icon: yangshi_icon_tongyong_more
-  details: [smart-doc](https://gitee.com/smart-doc-team/smart-doc)
 ---
 
