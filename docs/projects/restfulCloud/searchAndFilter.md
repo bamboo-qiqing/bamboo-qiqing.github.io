@@ -8,7 +8,7 @@ Restful Cloud 查找默认是搜索所有已经缓存过的项目，并且可以
 
 ## 搜索
 ::: tip
-Restful Api使用的快捷键是alt+q,开发者可以根据url查询，此处以[Ruoyi Cloud 版本](https://gitee.com/y_project/RuoYi-Cloud)为例。
+Restful Api使用的快捷键是**Ctrl+Q**,开发者可以根据url查询，此处以[Ruoyi Cloud 版本](https://gitee.com/y_project/RuoYi-Cloud)为例。
 
 根据不同的Url提供方式，做了类型的划分，划分主要方式为，不同类型的图标，有以下四种（由于俺不太会图标，有更好看的欢迎提供）：
 
