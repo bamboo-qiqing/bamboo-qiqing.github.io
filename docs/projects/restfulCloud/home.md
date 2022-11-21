@@ -28,7 +28,7 @@ features:
   link: /projects/restfulCloud/describe
 - title: 配置
   icon: icon-test16
-  details: 初始化数据地址、是否开启接口描述、接口描述框架排序设置
+  details: 
   link: /projects/restfulCloud/setting
 - title: 数据缓存
   icon: database
