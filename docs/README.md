@@ -7,6 +7,6 @@ heroImage: /logo.svg
 heroText: Bamboo
 heroFullScreen: true
 tagline: 一个懒懒的菜鸡博客
-projects:
+projects: 
 
 
