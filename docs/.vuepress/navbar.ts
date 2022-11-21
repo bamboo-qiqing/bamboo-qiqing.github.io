@@ -29,5 +29,16 @@ export default navbar([
                 link: "spring/"
             }
         ]
+    },{
+        text: "中间件",
+        icon: "icon-mqxiaoxiduilieMQ",
+        prefix: "/code/",
+        children: [
+            {
+                text: "RabbitMQ",
+                icon: "java",
+                link: "rabbitmq/"
+            },
+        ]
     }
 ]);
