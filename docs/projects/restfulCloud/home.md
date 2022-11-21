@@ -19,15 +19,15 @@ features:
   details: 兼容smart-doc设计理念，根据javadoc构建文档
 - title: 简单，快捷
   icon: xianshi
-  details: Idea插件，一键上传
+  details: Idea插件，无需配置，一键解析
 
-- title: 简单，快捷
+- title: 强大，易扩展
   icon: xianshi
-  details: 支持自定义注解，二次扩展
+  details: sqlite缓存，易扩展，支持动态添加自定义注解。
 
 
 - title: 友情链接
   icon: yangshi_icon_tongyong_more
-  details: 
+  details: [smart-doc]([smart-doc](https://gitee.com/smart-doc-team/smart-doc))
 ---
 
