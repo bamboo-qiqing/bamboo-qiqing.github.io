@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.cdc0426e.js";import{o as c,c as o}from"./app.b354d91e.js";const r={};function t(a,n){return c(),o("div")}const s=e(r,[["render",t],["__file","configureCacheStorage.html.vue"]]);export{s as default};
