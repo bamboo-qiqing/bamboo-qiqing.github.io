@@ -11,7 +11,6 @@ Restful Cloud的发展方向在于更好的管理所有应用程序中的Api接�
 :::
 ## 支持框架
 - [x] Spring
-- [x] odianyun
 - [x] Spring Cloud Openfeign
 - [x] Swagger
 ## 功能列表

@@ -28,6 +28,6 @@ features:
 
 - title: 友情链接
   icon: yangshi_icon_tongyong_more
-  details: [smart-doc](https://gitee.com/smart-doc-team/smart-doc)
+  details: 
 ---
 
