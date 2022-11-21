@@ -18,11 +18,11 @@ features:
   icon: icon-test12
   details: 兼容smart-doc设计理念，根据javadoc构建文档
 - title: 简单，快捷
-  icon: xianshi
+  icon: time
   details: Idea插件，无需配置，一键解析
 
 - title: 强大，易扩展
-  icon: xianshi
+  icon: 其它
   details: sqlite缓存，易扩展，支持动态添加自定义注解。
 
 
