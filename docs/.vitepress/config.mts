@@ -31,12 +31,10 @@ export default defineConfig({
         {
           text: "手机远程控制",
           items: [
-            { text: "服务概览", link: "/agents-anywhere/" },
-            { text: "快速开始", link: "/agents-anywhere/quickstart" },
-            { text: "安装 Connector", link: "/agents-anywhere/connectors" },
-            { text: "Web 控制台", link: "/agents-anywhere/web-console" },
-            { text: "Android 客户端", link: "/agents-anywhere/android" },
-            { text: "常见错误", link: "/agents-anywhere/troubleshooting" },
+            { text: "开始使用", link: "/agents-anywhere/" },
+            { text: "安装电脑端", link: "/agents-anywhere/connectors" },
+            { text: "手机端使用", link: "/agents-anywhere/android" },
+            { text: "遇到问题", link: "/agents-anywhere/troubleshooting" },
           ],
         },
       ],

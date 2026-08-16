@@ -4,9 +4,9 @@ aside: false
 
 # 两颗枣树
 
-面向 AI 工具和远程开发设备的服务文档。
+<p class="doc-intro">一个 API 地址，一部手机，让 Codex 随时可用。</p>
 
-这里提供两类服务的操作指南：通过 API 中转使用 Codex，以及从手机或浏览器控制自己设备上的 Codex。
+在这里完成 API 配置，或者把电脑上的 Codex 接到手机。
 
 <div class="actions">
   <a class="action" href="/relay/">配置 Codex</a>
@@ -23,7 +23,7 @@ aside: false
 
 ### 手机远程控制
 
-适合离开电脑后继续从手机查看和操作 Codex。被控电脑保持在线后，可以发送消息、处理审批、浏览文件和打开远程终端。
+电脑不在身边，也能从手机继续操作 Codex。
 
 [开始使用手机远程控制 →](/agents-anywhere/)
 
