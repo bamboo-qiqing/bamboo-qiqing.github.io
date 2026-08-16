@@ -51,13 +51,7 @@ uvx anywhere-cli start
 export CODEX_BIN=/path/to/codex
 ```
 
-生产环境应使用 systemd、screen 或 tmux 保持进程常驻。临时验证可以使用：
-
-```bash
-screen -S agents-anywhere
-# 在此处运行配对页面生成的命令
-# Ctrl-A，再按 D 可离开但不停止进程
-```
+完成验证后，使用系统服务、screen 或 tmux 保持进程常驻。不要把 Connector Token 写进公共启动脚本。
 
 ## 上线检查
 

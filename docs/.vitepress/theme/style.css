@@ -51,9 +51,14 @@
   text-align: center;
 }
 
+.doc-figure a {
+  display: block;
+}
+
 .doc-figure img {
   display: block;
   width: 100%;
+  height: auto;
   max-height: 620px;
   object-fit: contain;
   border: 1px solid var(--vp-c-divider);
@@ -72,6 +77,7 @@
 }
 
 .vp-doc table {
-  display: table;
+  display: block;
   width: 100%;
+  overflow-x: auto;
 }

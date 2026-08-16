@@ -24,14 +24,3 @@ Device 列表显示设备在线状态、Connector 能力和可用 Runtime。设�
 ::: warning 终端输出
 终端可能包含环境变量、Token、私钥或项目机密。分享截图前清理完整输出，尤其是 `.env`、SSH 配置和云服务凭据。
 :::
-
-## 操作预览
-
-下图为 Agents Anywhere 官方公开的移动端能力示意，用于帮助理解 Session、Device 和远程控制入口；实际服务地址和数据以你登录的控制台为准。
-
-<figure class="doc-figure">
-  <a href="/images/agents-anywhere/mobile-sessions.png" target="_blank" rel="noreferrer">
-    <img src="/images/agents-anywhere/mobile-sessions.png" alt="Agents Anywhere 官方移动端的设备和 Session 列表示意" loading="lazy" />
-  </a>
-  <figcaption>官方公开素材：设备、Session 与任务列表。</figcaption>
-</figure>
