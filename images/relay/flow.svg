@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">API 中转请求流程</title>
+  <desc id="desc">Codex 客户端通过 API Key 请求两颗枣树 API 中转，再由分组转发到可用模型</desc>
+  <rect width="1200" height="360" rx="18" fill="#f7f8fb"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="54" y="104" width="250" height="136" rx="12" fill="#ffffff" stroke="#cad2e5" stroke-width="3"/>
+    <text x="179" y="153" fill="#1f2937" font-size="25" font-weight="700">Codex</text>
+    <text x="179" y="190" fill="#5b6475" font-size="18">CLI / Desktop</text>
+    <text x="179" y="218" fill="#3451b2" font-size="16">API Key + Responses</text>
+    <rect x="475" y="78" width="250" height="188" rx="12" fill="#3451b2"/>
+    <text x="600" y="132" fill="#ffffff" font-size="25" font-weight="700">两颗枣树</text>
+    <text x="600" y="170" fill="#e9edff" font-size="18">API 中转</text>
+    <text x="600" y="208" fill="#ffffff" font-size="16">认证 · 分组 · 用量</text>
+    <text x="600" y="235" fill="#ffffff" font-size="16">请求转发</text>
+    <rect x="896" y="104" width="250" height="136" rx="12" fill="#ffffff" stroke="#cad2e5" stroke-width="3"/>
+    <text x="1021" y="153" fill="#1f2937" font-size="25" font-weight="700">模型分组</text>
+    <text x="1021" y="190" fill="#5b6475" font-size="18">当前可用模型</text>
+    <text x="1021" y="218" fill="#b4382f" font-size="16">按控制台为准</text>
+    <path d="M304 172h150m271 0h150" fill="none" stroke="#7783a2" stroke-width="4"/>
+    <path d="m433 158 21 14-21 14m421-28 21 14-21 14" fill="none" stroke="#7783a2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

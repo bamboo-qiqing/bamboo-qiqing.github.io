@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">两颗枣树</title>
+  <desc id="desc">两株并立的枣树</desc>
+  <g fill="none" stroke="#202124" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 108V36M40 55L24 42M40 68L57 51M40 84L25 72"/>
+    <path d="M88 108V36M88 55L104 42M88 68L71 51M88 84L103 72"/>
+  </g>
+  <g fill="#b4382f">
+    <circle cx="23" cy="41" r="7"/>
+    <circle cx="58" cy="50" r="7"/>
+    <circle cx="24" cy="71" r="7"/>
+    <circle cx="105" cy="41" r="7"/>
+    <circle cx="70" cy="50" r="7"/>
+    <circle cx="104" cy="71" r="7"/>
+  </g>
+</svg>
