@@ -1,4 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#3451b2"/>
-  <path d="M17 18h30v7H25v7h18v7H25v7h22v7H17z" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">两颗枣树</title>
+  <desc id="desc">月色下并立的两株枣树，枝头结着红枣</desc>
+  <circle cx="64" cy="64" r="58" fill="#f7f4ed" stroke="#242424" stroke-width="4"/>
+  <circle cx="82" cy="36" r="15" fill="#ded9ca"/>
+  <path d="M42 103C43 84 45 65 42 45M42 64L27 52M43 75L58 58M42 51L53 39M43 86L28 77"
+        fill="none" stroke="#242424" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M77 104C76 83 74 64 78 43M76 65L92 50M76 77L62 61M78 52L67 38M76 88L92 76"
+        fill="none" stroke="#242424" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 106C47 101 78 101 101 106" fill="none" stroke="#242424" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#a83232" stroke="#f7f4ed" stroke-width="2">
+    <circle cx="27" cy="51" r="5"/><circle cx="54" cy="39" r="5"/>
+    <circle cx="58" cy="58" r="5"/><circle cx="28" cy="77" r="5"/>
+    <circle cx="93" cy="49" r="5"/><circle cx="67" cy="38" r="5"/>
+    <circle cx="62" cy="61" r="5"/><circle cx="93" cy="76" r="5"/>
+  </g>
 </svg>

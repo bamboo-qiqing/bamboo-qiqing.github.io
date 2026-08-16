@@ -1,6 +1,6 @@
-# Bamboo
+# 两颗枣树
 
-一个简洁的个人项目与技术文档站点。
+一个记录技术、项目与思考的文档站点。
 
 <div class="actions">
   <a class="action" href="/guide/">开始阅读</a>

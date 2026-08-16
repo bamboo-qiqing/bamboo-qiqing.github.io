@@ -3,6 +3,7 @@
 ## 项目识别
 
 - 项目：`bamboo-qiqing.github.io`
+- 站点名称：两颗枣树
 - 类型：GitHub Pages 静态文档站点
 - 框架：VitePress `1.6.4`
 - 内容语言：中文（`zh-CN`）

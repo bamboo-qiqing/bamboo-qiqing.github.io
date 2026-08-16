@@ -2,12 +2,12 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "Bamboo",
-  description: "Bamboo 的个人项目与技术文档",
+  title: "两颗枣树",
+  description: "两颗枣树的个人项目与技术文档",
   cleanUrls: true,
   themeConfig: {
     logo: "/logo.svg",
-    siteTitle: "Bamboo",
+    siteTitle: "两颗枣树",
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/" },
@@ -32,7 +32,7 @@ export default defineConfig({
     search: { provider: "local" },
     footer: {
       message: "人生似幻化，终当归空无。",
-      copyright: "Copyright © Bamboo",
+      copyright: "Copyright © 两颗枣树",
     },
   },
 });
