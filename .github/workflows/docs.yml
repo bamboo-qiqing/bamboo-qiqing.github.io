@@ -30,12 +30,12 @@ jobs:
         run: pnpm docs:build
 
       - name: Add .nojekyll
-        run: echo > docs/.vuepress/dist/.nojekyll
+        run: echo > docs/.vitepress/dist/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          build_dir: docs/.vuepress/dist
+          build_dir: docs/.vitepress/dist
           target_branch: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

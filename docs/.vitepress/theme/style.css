@@ -1,0 +1,25 @@
+:root {
+  --vp-c-brand-1: #3451b2;
+  --vp-c-brand-2: #3f5fc6;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin: 28px 0 44px;
+}
+
+.action {
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 6px;
+  padding: 9px 16px;
+  color: white;
+  background: var(--vp-c-brand-1);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.action.secondary {
+  color: var(--vp-c-brand-1);
+  background: transparent;
+}

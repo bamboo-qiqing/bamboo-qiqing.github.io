@@ -1,35 +1,15 @@
 {
-  "name": "bamboo",
+  "name": "bamboo-qiqing.github.io",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:lint": "prettier --check --write docs/",
-    "docs:clean-dev": "vuepress dev docs --no-cache",
-    "docs:update": "ncu -u --target greatest && pnpm i && pnpm up"
-  },
-  "dependencies": {
-    "@vuepress/client": "2.0.0-beta.53",
-    "@vuepress/plugin-back-to-top": "2.0.0-beta.53",
-    "@vuepress/plugin-docsearch": "2.0.0-beta.53",
-    "@vuepress/plugin-nprogress": "2.0.0-beta.53",
-    "@vuepress/plugin-search": "2.0.0-beta.53",
-    "npm-check-updates": "^16.3.16",
-    "vue": "3.2.41",
-    "vuepress": "2.0.0-beta.53",
-    "vuepress-theme-hope": "2.0.0-beta.119"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "prettier": "2.7.1"
+    "vitepress": "^1.6.4"
   },
-  "packageManager": "pnpm@7.14.1",
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search"
-      ]
-    }
-  }
+  "packageManager": "pnpm@7.33.7"
 }
