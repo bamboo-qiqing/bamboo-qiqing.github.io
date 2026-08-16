@@ -4,25 +4,25 @@
 
 ## 安装前
 
-先在电脑上打开 Codex，确认它可以正常使用。
+先在电脑上打开 Codex，确认它可以正常使用；然后登录[手机远程控制台](https://agents.liangkezaoshu.top/zh-CN)。
 
 ## Windows
 
 1. 从[官方下载页](https://github.com/anywhere-labs/Agents-Anywhere/releases)下载 Windows 安装包。
 2. 安装并打开电脑端。
-3. 在手机远程控制页面选择 **添加电脑**，按提示完成绑定。
+3. 在控制台选择 **设备 → 添加设备**，按提示完成绑定。
 4. 看到电脑显示“在线”即可。
 
 ## macOS
 
 1. 从[官方下载页](https://github.com/anywhere-labs/Agents-Anywhere/releases)选择 Apple Silicon 或 Intel 安装包。
 2. 安装并打开，允许系统要求的网络和文件权限。
-3. 在手机远程控制页面选择 **添加电脑**，按提示完成绑定。
+3. 在控制台选择 **设备 → 添加设备**，按提示完成绑定。
 4. 看到电脑显示“在线”即可。
 
 ## Linux
 
-1. 在手机远程控制页面选择 **添加电脑 → Linux**。
+1. 在控制台选择 **设备 → 添加设备 → Linux**。
 2. 复制页面生成的命令，在电脑终端运行。
 3. 保持这个进程运行，看到电脑显示“在线”即可。
 

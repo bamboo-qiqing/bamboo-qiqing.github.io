@@ -18,7 +18,7 @@
 - `docs/agents-anywhere/`：对外名称为“手机远程控制”，按“开始使用 → 安装电脑端 → 手机端使用 → 遇到问题”组织。
 - `docs/faq/`：跨产品常见问题。
 
-API 中转控制台的公开地址是 `https://liangkezaoshu.top/`，API 端点是 `https://liangkezaoshu.top/v1`。手机远程控制的服务地址、账号和密钥继续使用尖括号占位符；文档不公开价格、购买方式、客服入口、后台部署细节或上游账号管理内容。
+API 中转控制台的公开地址是 `https://liangkezaoshu.top/`，API 端点是 `https://liangkezaoshu.top/v1`。手机远程控制的中文网页登录地址是 `https://agents.liangkezaoshu.top/zh-CN`，手机端服务器地址是 `https://agents.liangkezaoshu.top`。账号和密钥继续使用尖括号占位符；文档不公开价格、购买方式、客服入口、后台部署细节或上游账号管理内容。
 
 ## 目录结构
 
@@ -44,7 +44,7 @@ pnpm docs:preview   # 预览生产构建
 - 手机远程控制文档优先使用“电脑端、电脑、任务”等中文说法；只有安装包或界面原文需要时才出现 Connector、Device、Session、Runtime。
 - Sub2API 的 Codex 配置以控制台“使用密钥”动态生成内容为准，不固定写死模型名或认证字段。
 - Agents Anywhere 的服务端已经部署；文档只讲已有账号登录、Connector 配对和客户端操作，不指导客户部署 Server。
-- 除上述已确认公开的 API 中转地址外，不在代码块、截图、日志示例或页面文字中出现真实 API Key、Connector Token、邮箱、内部域名、设备名、工作区绝对路径或业务数据。
+- 除上述已确认公开的服务地址外，不在代码块、截图、日志示例或页面文字中出现真实 API Key、Connector Token、邮箱、内部域名、设备名、工作区绝对路径或业务数据。
 - 新增截图必须脱敏：遮盖地址栏、邮箱、余额、用户标识、API Key、Token、设备名、文件路径、Session 内容和业务数据。优先使用官方 Release 或上游仓库公开素材，不使用 GitHub 热链。
 - 图片使用 `figure.doc-figure` 结构，提供准确 `alt` 文本和图注；真实控制台截图需来自临时演示账号。
 - 不要手动编辑 `docs/.vitepress/dist/`，它是构建产物。

@@ -6,7 +6,7 @@
 
 1. 从[官方下载页](https://github.com/anywhere-labs/Agents-Anywhere/releases)下载 Android APK。
 2. 安装并打开应用。
-3. 输入管理员提供的服务地址 `<AGENTS_ANYWHERE_SERVICE_URL>`。
+3. 服务地址填写 `https://agents.liangkezaoshu.top`。
 4. 使用已有账号登录。
 
 ## 新建任务

@@ -5,14 +5,14 @@
 手机发消息，电脑执行，结果回到手机。就这么简单。
 
 <div class="actions">
-  <a class="action" href="/agents-anywhere/connectors">安装电脑端</a>
-  <a class="action secondary" href="/agents-anywhere/android">手机端使用</a>
+  <a class="action" href="https://agents.liangkezaoshu.top/zh-CN" target="_blank" rel="noreferrer">打开控制台</a>
+  <a class="action secondary" href="/agents-anywhere/connectors">安装电脑端</a>
 </div>
 
 ## 只需三步
 
 1. 在电脑上安装并登录 Codex。
-2. [安装电脑端](/agents-anywhere/connectors)，按页面提示绑定账号。
+2. 打开控制台，[安装电脑端](/agents-anywhere/connectors)并完成绑定。
 3. [打开手机端](/agents-anywhere/android)，选择这台电脑并新建任务。
 
 ## 电脑需要保持
