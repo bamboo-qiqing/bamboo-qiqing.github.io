@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "API 中转", link: "/relay/" },
-      { text: "远程 Agent", link: "/agents-anywhere/" },
+      { text: "手机远程控制", link: "/agents-anywhere/" },
       { text: "常见问题", link: "/faq/" },
     ],
     sidebar: {
@@ -29,7 +29,7 @@ export default defineConfig({
       ],
       "/agents-anywhere/": [
         {
-          text: "远程 Agent",
+          text: "手机远程控制",
           items: [
             { text: "服务概览", link: "/agents-anywhere/" },
             { text: "快速开始", link: "/agents-anywhere/quickstart" },

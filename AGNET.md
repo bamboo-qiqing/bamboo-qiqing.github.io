@@ -15,10 +15,10 @@
 站点面向服务客户，当前包含两个产品区：
 
 - `docs/relay/`：API 中转的 Codex CLI/Desktop 用户指南，按“创建密钥 → 使用密钥 → 配置 → 排错”组织。
-- `docs/agents-anywhere/`：Agents Anywhere 的 Web、Android 和 Windows/macOS/Linux Connector 操作指南。
+- `docs/agents-anywhere/`：对外名称为“手机远程控制”，底层基于 Agents Anywhere，包含 Web、Android 和 Windows/macOS/Linux Connector 操作指南。
 - `docs/faq/`：跨产品常见问题。
 
-API 中转控制台的公开地址是 `https://liangkezaoshu.top/`，API 端点是 `https://liangkezaoshu.top/v1`。远程 Agent 地址、账号和密钥继续使用尖括号占位符；文档不公开价格、购买方式、客服入口、后台部署细节或上游账号管理内容。
+API 中转控制台的公开地址是 `https://liangkezaoshu.top/`，API 端点是 `https://liangkezaoshu.top/v1`。手机远程控制的服务地址、账号和密钥继续使用尖括号占位符；文档不公开价格、购买方式、客服入口、后台部署细节或上游账号管理内容。
 
 ## 目录结构
 

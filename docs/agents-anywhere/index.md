@@ -1,6 +1,6 @@
-# 远程 Agent
+# 手机远程控制
 
-Agents Anywhere 让你从 Web 或 Android 控制另一台设备上的 Codex。服务端已经部署，你只需要使用已有账号登录，并在运行 Codex 的设备上安装 Connector。
+手机远程控制功能基于 Agents Anywhere，让你从手机或浏览器操作另一台设备上的 Codex。服务端已经部署，你只需要使用已有账号登录，并在运行 Codex 的设备上安装 Connector。
 
 ## 数据在哪里执行
 
