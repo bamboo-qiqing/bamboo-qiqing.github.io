@@ -1,0 +1,33 @@
+# 常见问题
+
+## API 中转和远程 Agent 有什么区别？
+
+API 中转解决的是“让 Codex 通过统一 API 地址发送请求”；远程 Agent 解决的是“让你从另一台设备控制本地运行的 Codex”。两者可以分别使用，也可以组合使用：Connector 所在设备的 Codex 可以使用 API 中转配置。
+
+## 我的代码会上传到服务端吗？
+
+API 中转会转发 Codex 请求，具体请求内容取决于客户端和当前服务配置。远程 Agent 的文件、Shell 和终端操作发生在 Connector 设备上；服务端负责控制面、状态和转发。使用前请确认你所在组织对代码和数据的要求。
+
+## 为什么必须从“使用密钥”复制配置？
+
+Codex 和 Sub2API 的认证字段可能随版本变化。控制台生成的配置会根据当前分组和认证模式输出正确组合，比复制旧教程更可靠。
+
+## API Key 可以多人共用吗？
+
+不建议。为每台设备或每个项目创建独立密钥，便于限制额度、轮换凭据和定位用量。
+
+## Connector 关闭后还能从手机操作吗？
+
+不能。手机和 Web 是控制端，真正执行 Codex、文件和终端操作的是 Connector 所在设备。
+
+## 如何撤销远程设备？
+
+进入 Web 控制台的 Device 列表，找到设备并执行撤销或移除；随后停止本地 Connector，并重新登录相关账号。
+
+## 去哪里查看上游项目？
+
+- [Sub2API](https://github.com/Wei-Shaw/sub2api)
+- [Agents Anywhere](https://github.com/anywhere-labs/Agents-Anywhere)
+- [Agents Anywhere Releases](https://github.com/anywhere-labs/Agents-Anywhere/releases)
+
+上游界面、版本和能力会变化；本文档以服务端实际开放能力为准。

@@ -4,19 +4,28 @@
 
 - 项目：`bamboo-qiqing.github.io`
 - 站点名称：两颗枣树
-- 类型：GitHub Pages 静态文档站点
+- 类型：GitHub Pages 静态服务文档站点
 - 框架：VitePress `1.6.4`
 - 内容语言：中文（`zh-CN`）
 - 包管理器：pnpm 7+
 - 推荐 Node.js：18+
 
+## 文档定位
+
+站点面向服务客户，当前包含两个产品区：
+
+- `docs/relay/`：Sub2API API 中转的 Codex CLI/Desktop 用户指南。
+- `docs/agents-anywhere/`：Agents Anywhere 的 Web、Android 和 Windows/macOS/Linux Connector 操作指南。
+- `docs/faq/`：跨产品常见问题、上游项目链接和素材版本记录。
+
+文档不公开实际服务域名、价格、购买方式、客服入口、后台部署细节或上游账号管理内容。服务地址、账号和密钥统一使用尖括号占位符。
+
 ## 目录结构
 
-- `docs/`：Markdown 文档源文件
-- `docs/.vitepress/config.mts`：站点标题、导航、侧边栏、搜索和页脚配置
-- `docs/.vitepress/theme/`：主题入口和自定义 CSS
-- `docs/public/`：可直接通过根路径访问的静态资源
-- `.github/workflows/docs.yml`：构建并发布到 GitHub Pages 的流程
+- `docs/.vitepress/config.mts`：标题、导航、侧边栏、搜索和页脚配置。
+- `docs/.vitepress/theme/`：全局主题样式和截图展示样式。
+- `docs/public/images/`：本地流程图和已记录来源的公开素材。
+- `.github/workflows/docs.yml`：构建并发布到 GitHub Pages 的流程。
 
 ## 常用命令
 
@@ -27,17 +36,25 @@ pnpm docs:build     # 生产构建，输出 docs/.vitepress/dist
 pnpm docs:preview   # 预览生产构建
 ```
 
+构建必须使用 Node.js 18 或更高版本。远程旧环境的 Node.js 16 无法运行 VitePress 1.x/Vite 5 的 Web Crypto 依赖。
+
 ## 内容约定
 
-- 新文章放在 `docs/` 下合适的目录，使用 Markdown 编写。
-- 新增栏目或页面后，同步修改 `docs/.vitepress/config.mts` 中的 `nav` 或 `sidebar`。
-- 图片等静态资源放入 `docs/public/` 或文章附近，并使用相对路径引用。
+- 以客户完成任务为主线，优先写“从哪里点、复制什么、如何验证、失败看哪里”。
+- Sub2API 的 Codex 配置以控制台“使用密钥”动态生成内容为准，不固定写死模型名或认证字段。
+- Agents Anywhere 的服务端已经部署；文档只讲已有账号登录、Connector 配对和客户端操作，不指导客户部署 Server。
+- 不在代码块、截图、日志示例或页面文字中出现真实 API Key、Connector Token、邮箱、域名、设备名、工作区绝对路径或业务数据。
+- 新增截图必须脱敏，并在 `docs/faq/sources.md` 记录来源和验证版本。优先使用官方 Release 或上游仓库公开素材，不使用 GitHub 热链。
+- 图片使用 `figure.doc-figure` 结构，提供准确 `alt` 文本和图注；真实控制台截图需来自临时演示账号。
 - 不要手动编辑 `docs/.vitepress/dist/`，它是构建产物。
+
+## 上游版本基线
+
+- Sub2API：`v0.1.177`，来源见 `docs/faq/sources.md`。
+- Agents Anywhere：`v0.1.7`，来源见 `docs/faq/sources.md`。
+
+上游项目更新后，先核对用户端菜单、Codex 配置弹窗、Connector 命令和 Android Release，再更新版本记录和相关页面。
 
 ## 发布流程
 
-向 `master` 分支推送会触发 `.github/workflows/docs.yml`，执行 `pnpm docs:build` 后将 `docs/.vitepress/dist/` 发布到 `gh-pages`。发布前应使用 Node.js 18 或更高版本完成本地构建验证。
-
-## 当前状态
-
-原 VuePress 文档、图片和主题配置已按项目迁移要求清除，当前是全新的最小 VitePress 站点骨架。Git commit 尚未创建；如需提交，应先确认提交信息和是否要同时调整 GitHub Actions 的 Node.js 版本。
+向 `master` 分支推送会触发 `.github/workflows/docs.yml`，执行 `pnpm docs:build` 后将 `docs/.vitepress/dist/` 发布到 `gh-pages`。提交前必须完成构建、链接、敏感信息和移动端显示检查。Git commit 和 push 需要在用户确认后执行。

@@ -3,28 +3,43 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "zh-CN",
   title: "两颗枣树",
-  description: "两颗枣树的个人项目与技术文档",
+  description: "两颗枣树服务文档",
   cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
     logo: "/logo.svg",
     siteTitle: "两颗枣树",
     nav: [
       { text: "首页", link: "/" },
-      { text: "指南", link: "/guide/" },
-      { text: "项目", link: "/projects/" },
-      { text: "GitHub", link: "https://github.com/bamboo-qiqing" },
+      { text: "API 中转", link: "/relay/" },
+      { text: "远程 Agent", link: "/agents-anywhere/" },
+      { text: "常见问题", link: "/faq/" },
     ],
     sidebar: {
-      "/guide/": [
+      "/relay/": [
         {
-          text: "开始使用",
-          items: [{ text: "概览", link: "/guide/" }],
+          text: "API 中转",
+          items: [
+            { text: "服务概览", link: "/relay/" },
+            { text: "快速开始", link: "/relay/quickstart" },
+            { text: "API Key 管理", link: "/relay/api-keys" },
+            { text: "配置 Codex", link: "/relay/codex" },
+            { text: "用量与额度", link: "/relay/usage" },
+            { text: "故障排查", link: "/relay/troubleshooting" },
+          ],
         },
       ],
-      "/projects/": [
+      "/agents-anywhere/": [
         {
-          text: "项目",
-          items: [{ text: "项目概览", link: "/projects/" }],
+          text: "远程 Agent",
+          items: [
+            { text: "服务概览", link: "/agents-anywhere/" },
+            { text: "快速开始", link: "/agents-anywhere/quickstart" },
+            { text: "安装 Connector", link: "/agents-anywhere/connectors" },
+            { text: "Web 控制台", link: "/agents-anywhere/web-console" },
+            { text: "Android 客户端", link: "/agents-anywhere/android" },
+            { text: "故障排查", link: "/agents-anywhere/troubleshooting" },
+          ],
         },
       ],
     },
@@ -54,6 +69,7 @@ export default defineConfig({
       },
     },
     outlineTitle: "本页目录",
+    lastUpdatedText: "最后更新",
     docFooter: {
       prev: "上一篇",
       next: "下一篇",

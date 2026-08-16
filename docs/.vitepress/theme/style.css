@@ -45,3 +45,33 @@
     flex-wrap: wrap;
   }
 }
+
+.doc-figure {
+  margin: 28px 0;
+  text-align: center;
+}
+
+.doc-figure img {
+  display: block;
+  width: 100%;
+  max-height: 620px;
+  object-fit: contain;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+}
+
+.doc-figure figcaption {
+  margin-top: 9px;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+}
+
+.vp-doc code {
+  overflow-wrap: anywhere;
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
